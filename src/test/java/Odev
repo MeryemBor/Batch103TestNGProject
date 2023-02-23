@@ -1,0 +1,44 @@
+//Odev
+/*
+1) User Story 3
+-Name:
+       * US100402_Negative_Login
+- Description:
+       * Kullanimda olmayan kullanıcı adi ve şifre ile giriş yapılamamalı
+- Acceptance Criteria:
+        *Kullanici dogru email ve yanlis sifre girildiginde, hata mesajini alınmalı
+        -Hata Mesaji:
+                 *Bad credentials
+        -Test Data:
+       * Customer email: jack@gmail.com
+       *Customer password: fakepass
+********************************************
+2) User Story 4
+-Name:
+       *US101122_Negative_Login
+-Description:
+      *Geçerli email uzantısı olmadan kullanıcı girişi yapılamamalı
+-Acceptance Criteria:
+      *Kullanici geçersiz email uzantısı yazdiginda, hata mesajini almalı
+-Error Message: email must be a valid email
+       *Dogru email uzantisi girildiğinde hata mesajı alınmamalı
+- https://email-verify.my-addr.com/list-of-most-popular-email-domains.php
+
+@ email-verify.my-addr.com
+List of most popular email domains (by number of live emails)
+Top 100 - List of most popular email domains according to number of live email addreses.
+
+*******************************************************
+3) User Story 5
+-Name:
+       *US101201_Negative_Login
+-Description:
+        *Geçerli giriş yapmadan rezervasyon yapamamalı
+-Acceptance Criteria:
+        *Kullanici arac bilgilerini girip CONTINUE RESERVATION butonuna tikladiginda
+         *Ve giris yapilmadiginda
+         *Hata mesaji almali : Please first login
+          *Giris yapildiginda hata mesaji alınmamalı
+
+*/
+

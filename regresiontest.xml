@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="minor regression" verbose="2">
+    <listeners>
+        <listener class-name="techproed.utilities.ListenersRetryAnalyzer"></listener>
+    </listeners>
+    <test name="Regression1">
+        <packages>
+            <package name="techproed.*"></package>
+        </packages>
+    </test>
+</suite>
